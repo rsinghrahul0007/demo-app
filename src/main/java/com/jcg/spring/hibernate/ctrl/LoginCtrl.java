@@ -27,7 +27,7 @@ public class LoginCtrl {
 		log.info("Is user valid?= " + isValid);
 
 		if(isValid) {
-			msg = "Welcome " + username + "!";
+			msg = "Welcome " + username + "!!!!!";
 		} else {
 			msg = "Invalid credentials";
 		}
