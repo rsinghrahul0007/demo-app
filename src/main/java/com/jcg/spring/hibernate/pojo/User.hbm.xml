@@ -6,10 +6,10 @@
          <column name="user_id" />
          <generator class="native" />
       </id>
-      <property name="name" type="java.lang.String">
+      <property name="name" type="java.lang.String" length="25">
          <column name="user_name" />
       </property>
-      <property name="password" type="java.lang.String">
+      <property name="password" type="java.lang.String" length="25">
          <column name="user_password" />
       </property>
    </class>
